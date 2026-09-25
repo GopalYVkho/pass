@@ -1,0 +1,28 @@
+export const ARTIFACTS = [
+  { id: 'finzor', category: 'WEALTH TELEMETRY // FULLSTACK', slot: 'SLOT 01', title: 'FINZOR', desc: 'High-velocity portfolio calculation engine with real-time WebSocket ledger streams and sub-second drawdown curves.', tags: ['Next.js 15', 'TypeScript', 'Redux', 'WebSockets'], stat: '<42ms Telemetry' },
+  { id: 'cricmatch', category: 'SPORTS TELEMETRY // FRONTEND', slot: 'SLOT 02', title: 'CricMatch', desc: 'Real-time spectator engine running on 60 FPS HTML5 Canvas with sub-frame probability recalculations.', tags: ['React 19', 'WebSocket', 'Canvas 60fps'], stat: 'Zero Lag Frame' },
+  { id: 'credvault', category: 'SECURITY & CIPHERS // FULLSTACK', slot: 'SLOT 03', title: 'Credvault', desc: 'Zero-Knowledge credential manager with client-side WebCrypto encryption ensuring zero plaintext reaches server logs.', tags: ['WebCrypto', 'AES-GCM-256', 'Fastify'], stat: 'Zero Plaintext' },
+  { id: 'incloudswipe', category: 'BILLING INFRASTRUCTURE // FULLSTACK', slot: 'SLOT 04', title: 'InCloudSwipe', desc: 'Automated recurring ledger and billing reconciliation platform built to handle multi-currency enterprise pipelines.', tags: ['Next.js', 'Laravel 11', 'PostgreSQL'], stat: '99.99% Accuracy' },
+  { id: 'savorpulse', category: 'PWA RUNTIME // FRONTEND', slot: 'SLOT 05', title: 'SavorPulse', desc: 'Offline-first reactive culinary calculation PWA featuring local IndexedDB caching and background sync.', tags: ['React', 'IndexedDB', 'Service Worker'], stat: 'Offline Native' }
+];
+
+export const SKILLS = [
+  { name: 'JavaScript', category: '01. Core Languages', svg: <path d="M8.5 8c-1.2 0-1.8.8-1.8 1.8 0 1.8 2.2 1.5 2.2 3.2 0 .9-.8 1.5-1.7 1.5-.7 0-1.4-.3-1.7-.8M15 8v5.2c0 1.2-.7 1.8-1.8 1.8-.7 0-1.2-.3-1.5-.7" /> },
+  { name: 'TypeScript', category: '01. Core Languages', svg: <><path d="M12 2.5l7.5 3.2v6.2c0 5-3.5 9-7.5 10.1C8 20.9 4.5 16.9 4.5 11.9V5.7L12 2.5z" fill="currentColor" fillOpacity="0.1"/><path d="M9 8.5h6m-3 0v7"/></> },
+  { name: 'HTML5', category: '01. Core Languages', svg: <><path d="M4.5 3l1.5 16 6 2 6-2 1.5-16h-15z" fill="currentColor" fillOpacity="0.1"/><path d="M8 8h8l-.5 4.5h-7l.3 3.5 3.2 1 3.2-1 .3-2.5"/></> },
+  { name: 'CSS3', category: '01. Core Languages', svg: <path d="M12 3a9 9 0 1 0 0 18c1 0 1.8-.8 1.8-1.8 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-1 .8-1.8 1.8-1.8h2.2c2.2 0 4-1.8 4-4 0-4.5-4-8.2-9-8.2z" fill="currentColor" fillOpacity="0.1"/> },
+  { name: 'SQL', category: '01. Core Languages', svg: <><ellipse cx="12" cy="6" rx="8" ry="3" fill="currentColor" fillOpacity="0.1"/><path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></> },
+  { name: 'React.js', category: '02. Frameworks', svg: <><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(30 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(90 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(150 12 12)"/><circle cx="12" cy="12" r="1.75" fill="currentColor"/></> },
+  { name: 'Next.js', category: '02. Frameworks', svg: <><circle cx="12" cy="12" r="9"/><path d="M9 8v8l7.5-9" strokeWidth="2"/><path d="M15 11v5" strokeWidth="1.8"/></> },
+  { name: 'Redux Toolkit', category: '02. Frameworks', svg: <path d="M7 16c-2.5 0-4-1.8-4-4s1.5-4 4-4c2.6 0 4.2 3.2 5 4 .8-.8 2.4-4 5-4 2.5 0 4 1.8 4 4s-1.5 4-4 4c-2.6 0-4.2-3.2-5-4-.8.8-2.4 4-5 4z" fill="currentColor" fillOpacity="0.1"/> },
+  { name: 'Node.js', category: '02. Frameworks', svg: <path d="M12 3l7.5 4.3v8.6L12 20.2l-7.5-4.3V7.3L12 3z" fill="currentColor" fillOpacity="0.1"/> },
+  { name: 'Express.js', category: '02. Frameworks', svg: <><rect x="3" y="7" width="18" height="10" rx="3" fill="currentColor" fillOpacity="0.1"/><path d="M13 3l-4 8h5l-3 10 7-10h-5l3-8z" fill="currentColor" strokeWidth="1.5"/></> },
+  { name: 'Tailwind CSS', category: '03. UI Systems', svg: <><path d="M4 11c1.5-3 4-3.5 5.5-2 2 2 3 2.5 5.5 1 2-1 3.5-1 4.5 0"/><path d="M4 16c1.5-3 4-3.5 5.5-2 2 2 3 2.5 5.5 1 2-1 3.5-1 4.5 0"/></> },
+  { name: 'Responsive Design', category: '03. UI Systems', svg: <><rect x="2" y="4" width="13" height="10" rx="1.5" fill="currentColor" fillOpacity="0.1"/><path d="M6 14v2h5v-2"/><rect x="14" y="9" width="7" height="11" rx="1.5" fill="currentColor" fillOpacity="0.2"/></> },
+  { name: 'REST API', category: '03. UI Systems', svg: <><path d="M4 14.5a4 4 0 0 1 1-7.8 5.5 5.5 0 0 1 10.5-1.5 4.5 4.5 0 0 1 4 5.8 3.5 3.5 0 0 1-1.5 6.5H5a3 3 0 0 1-1-3z" fill="currentColor" fillOpacity="0.1"/><path d="M8 12h8m-3-3l3 3-3 3"/></> },
+  { name: 'Figma to Code', category: '03. UI Systems', svg: <><circle cx="8" cy="7" r="3" fill="currentColor" fillOpacity="0.2"/><circle cx="8" cy="17" r="3" fill="currentColor" fillOpacity="0.1"/><path d="M14 9l5 3-5 3v-6z" fill="currentColor" fillOpacity="0.2"/></> },
+  { name: 'Git & GitHub', category: '04. Practices', svg: <><circle cx="6" cy="6" r="2.5" fill="currentColor" fillOpacity="0.1"/><circle cx="6" cy="18" r="2.5" fill="currentColor" fillOpacity="0.1"/><circle cx="18" cy="12" r="2.5" fill="currentColor" fillOpacity="0.2"/><path d="M6 8.5v7m0-3.5c3 0 7-1 9.5-1.5"/></> },
+  { name: 'Agile / Scrum', category: '04. Practices', svg: <><path d="M21 12A9 9 0 0 0 6 5.3L3 8m0 0V3m0 5h5"/><path d="M3 12a9 9 0 0 0 15 6.7l3-2.7m0 0v5m0-5h-5"/></> },
+  { name: 'Performance Tuning', category: '04. Practices', svg: <><path d="M12 3a9 9 0 0 0-9 9c0 3.2 1.6 6 4 7.6l2-2.5A6 6 0 1 1 18 12"/><path d="M12 12l4.5-4.5" strokeWidth="2"/><circle cx="12" cy="12" r="2" fill="currentColor"/></> },
+  { name: 'PWA & Offline', category: '04. Practices', svg: <><rect x="5" y="2" width="14" height="20" rx="3" fill="currentColor" fillOpacity="0.1"/><path d="M12 18h.01"/><path d="M13 7l-3 4h3l-1 4 4-5h-3l1-3z" fill="currentColor"/></> }
+];
